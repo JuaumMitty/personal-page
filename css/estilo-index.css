@@ -1,0 +1,255 @@
+/* FONTES */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans:wght@100;300;400;700&display=swap');
+
+/* CORPO */ 
+
+html {
+    background-color: #FFA136;
+}
+body {
+    background: #FFF;
+    margin: 250px auto 0 auto;
+    max-width: 1080px;
+    padding: 4em 2em 4em;
+    font-family: 'Josefin Sans', sans-serif;
+    box-shadow: 0 0 2px #aaa;
+}
+
+/* BANNER E PERFIL */
+
+header {
+    height: 250px;
+    position: absolute;
+    background-image: url(../img/planodefundo2.jpg);
+    background-repeat: no-repeat;
+    right: 0;top: 0; left:0;
+    box-shadow: 0 0.5px 5px gray;
+
+}
+
+img.perfil {
+    position: relative;
+    top: 110px; 
+    border: 5px solid;
+    border-radius: 100%;
+    border-color: white;
+}
+
+img.header {
+    background-color: #0088B3;
+    border-radius: 50%;
+}
+
+
+/* POSICIONAMENTO DAS REDES SOCIAIS */
+
+#git{
+    position: relative;
+    top: 110px;
+    left: 70px;
+    border-radius: 100%;
+}
+
+#git:hover{
+opacity: 0.3;    
+}
+
+#inst{
+    position: relative;
+    top: 150px;
+    left: 70px;
+    border-radius: 100%;
+}
+#inst:hover{
+    opacity: 0.3;        
+}
+
+#linke{
+    position: relative;
+    top: 150px;
+    right: 70px;
+    border-radius: 100%;
+}
+
+#linke:hover{
+    opacity: 0.3;    
+}
+
+#yout{
+    position: relative;
+    top: 110px;
+    right: 70px;
+    border-radius: 100%;
+}
+
+#yout:hover{
+    opacity: 0.3;
+}
+
+/* INFORMAÇÕES */
+
+div.info {
+    margin-bottom: 200px;
+}
+
+h1.info {
+    color: #FF941C;
+    margin: 50px auto 0 auto;
+    font-size: 50px;
+    font-weight: 500;
+    clear: both;
+}
+
+ul.info{
+    float: left;
+    list-style-type: none;
+    font-size: 25px;
+    font-weight: 300;
+    margin-left: 40px;
+}
+
+b.info {
+    font-weight: 500;
+    color: #007EB3;
+}
+
+img.info {
+    margin: 0 10px -15px 0;
+    background-color: #007EB3;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+/* ATUAÇÃO PROFISSIONAL */
+
+div.atuacao {
+    clear: both;
+    background-color: #007EB3;
+    margin: 0 -8.5% 0 -8.5%;
+    padding: 6em 6em 4em 6em;
+    transform: skewY(5deg);
+}
+
+h1.atuacao {
+    transform: skewY(-5deg);
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    margin: 0px 0 -10px 0;
+}
+
+p.atuacao{ 
+    transform: skewY(-5deg);
+    font-weight: 300;
+    line-height: 1.2em;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding: 0 1.5em 0 1.5em;
+    padding-bottom: 50px;
+
+}
+
+/* HOBBIES */
+
+div.hobbie {
+    background-color: #007EB3;
+    width: 95%;
+    margin: 100px auto 0 auto;
+    padding: 5px;
+    text-align: center;
+}
+
+h1.hobbie {
+    background-color: white;
+    color: #FF941C;
+    font-family: 'Dancing Script';
+    font-size: 50px;
+    font-weight: 500;
+    padding: 30px;
+    margin: 0 0 20px 0;
+    text-align: center;
+    box-shadow: 0px 1px 6px #111111;
+}
+
+/* FOTOS POLAROID */
+
+div.polaroid {
+    background-color: white;
+    padding: 15px 0;
+    margin: 20px 0 20px 0;
+    width: 485px;
+    box-shadow: 0px 1px 6px #111111;
+}
+
+div.polaroid:hover {
+    box-shadow: 1px 4px 10px #111111;
+
+}
+
+b.polaroid {
+    font-weight: 500;
+    color: #007EB3;
+}
+
+p.polaroid {
+    font-family: 'Dancing Script';
+    font-size: 25px;
+    font-weight: 300;
+    padding: 5px 20px;
+}
+
+/* POSICIONAMENTO E ROTAÇÃO POLAROID */
+
+#hob1 {
+    transform: rotate(-5deg);
+    float: left;
+}
+
+#hob2 {
+    transform: rotate(5deg);
+    float: right;
+}
+
+#hob3 {
+    transform: rotate(-3deg);
+    float: left;
+}
+
+#hob4 {
+    transform: rotate(3deg);
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.midia{
+    border-radius: 4px;
+}
+
+/* FORMULARIO CONTATO LINK */ 
+
+#contatos{
+    background-color: #007EB3;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 75px;
+    height: 75px;
+    border: solid 3px;
+    border-radius:50%;
+    border-color: white;
+    box-shadow: 1px 2px 5px black;
+
+}
+
+#contatos:hover{
+    width: 90px;
+    height: 90px;
+    opacity: 0.9;
+} 
